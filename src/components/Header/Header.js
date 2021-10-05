@@ -23,11 +23,9 @@ const Header = () => {
           </Container>
         </Navbar>
       </div>
-
       <div className="header">
         <h2 className="h2-design">Full Body Workouts That Leave You Energized</h2>
         <h1 className="">GO BEYOND YOUR LIMITS</h1>
-
       </div>
 
 
