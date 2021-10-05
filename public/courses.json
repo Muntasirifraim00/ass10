@@ -1,0 +1,59 @@
+[
+  {
+    "key": "1",
+    "img": "https://images.contentstack.io/v3/assets/blt45c082eaf9747747/blt4ecfeaf76a66cf24/5fb7e9ee42256d5ffdf45322/FL_1_Blog-Header-Pics_1232-x-630-V4-lunges.jpg?width=1200&height=630&fit=crop",
+    "name": " Lunges",
+    "price": 1500,
+    "duration": "3 month"
+  },
+  {
+    "key": "2",
+        "img": "http://upl.stack.com/wp-content/uploads/Quickly-Strengthen-Your-Upper-Body-With-Pyramid-Push-Ups.jpg",
+        "name": "Pushups",
+    "price": 1200,
+    "duration": "6 month"
+  },
+  {
+    "key": "3",
+        "img": "https://experiencelife.lifetime.life/wp-content/uploads/2021/02/Squat-1-1280x720.jpg",
+        "name": "Squats",
+    "price": 3400,
+    "duration": "5 month"
+  },
+  {
+    "key": "4",
+        "img": "https://www.muscleandfitness.com/wp-content/uploads/2018/01/1109-single-leg-burpee.jpg?quality=86&strip=all",
+        "name": "Burpees",
+    "price": 5030,
+    "duration": "3 month"
+  },
+  {
+    "key": "5",
+        "img": "https://mesotropin.com/wp-content/uploads/2018/12/dumbbell-row-weights-bench-main.jpg",
+        "name": "Dumbbell rows",
+    "price": 1210,
+    "duration": "5 month"
+  },
+  {
+    "key": "6",
+    "img": "https://cdn2.coachmag.co.uk/sites/coachmag/files/2018/03/one-leg-romanian-deadlift.jpg",
+    "name": "Single-leg deadlifts",
+    "price": 1320,
+    "duration": "1 month"
+  },
+  {
+    "key": "7",
+        "img": "https://cdn.prod.openfit.com/uploads/2018/05/24125234/Open_Fit_Side_Plank_Hip_Lift_770.jpg",
+        "name": "Side planks",
+    "price": 1320,
+    "duration": "1 month"
+  },
+  {
+   
+    "key": "8",
+    "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hdm119918mh15842-1545237096.png",
+    "name": "Planks",
+    "price": 1320,
+    "duration": "1 month"
+  }
+]
