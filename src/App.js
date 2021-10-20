@@ -6,6 +6,10 @@ import Home from "./components/Home/Home";
 import Services from "./components/Services/Services";
 import Footer from "./components/Footer/Footer";
 import NotFound from "./components/NotFound/NotFound";
+import Login from "./components/Login/Login";
+import Register from './components/Register/Register';
+import Booking from './components/booking/Booking';
+import Topyogatrainer from './components/Topyogatrainer/Topyogatrainer';
 
 function App() {
   return (
@@ -22,8 +26,20 @@ function App() {
           <Route path="/about">
             <About></About>
           </Route>
+          <Route path="/login">
+             <Login></Login>
+          </Route>
           <Route path="/workouts">
             <Services></Services>
+          </Route>
+          <Route path="/Topyogatrainer">
+            <Topyogatrainer></Topyogatrainer>
+          </Route>
+          <Route path="/booking/:serviceId">
+              <Booking></Booking>
+            </Route>
+          <Route path="/register">
+            <Register></Register>
           </Route>
           <Route path="*">
             <NotFound></NotFound>

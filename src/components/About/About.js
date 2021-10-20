@@ -1,45 +1,27 @@
 import React from "react";
-import { Col, Container, ProgressBar, Row } from "react-bootstrap";
+import { Col, Container, ProgressBar } from "react-bootstrap";
+import img1 from "./1.jpg"
+import "../About/About.css"
 const About = () => {
   return (
     <Container className="p-5">
       <div className="d-flex">
-        <Col lg={12} md={6} xs={12}>
+        <Col lg={6} md={6} xs={12}>
           <div>
             <h3>About Us</h3>
             <p>
-              E-learning is a structured course or learning experience delivered
-              electronically; it can also include performance support content.
-              There are also many different elements that can make up an
-              e-learning program, such as live or pre-recorded lecture content,
-              video, quizzes, simulations, games, activities, and other
-              interactive elements. Keep in mind that you may also see the term
-              e-learning more broadly as a catchall for any learning content
-              delivered electronically.
+            Yoga is a mind and body practice. Various styles of yoga combine physical postures, breathing techniques, and meditation or relaxation. Yoga is an ancient practice that may have originated in India. It involves movement, meditation, and breathing techniques to promote mental and physical well-being.
+            The first mention of the word “yoga” appears in Rig Veda, a collection of ancient texts. Yoga comes from the Sanskrit word “yuj,” which means “union” or “to join.”
+
+Yoga can be traced back to northern India over 5,000 years ago.
+
+Indian monks spread their knowledge of yoga in the West during the late 1890s. Modern yoga teachings became widely popular in Western countries by the 1970s.
             </p>
           </div>
-          <div>
-            <div>
-              <ProgressBar variant="success" now={40} />
-              <ProgressBar variant="info" now={20} />
-              <ProgressBar>
-                <ProgressBar striped variant="success" now={35} key={1} />
-                <ProgressBar variant="warning" now={20} key={2} />
-                <ProgressBar striped variant="danger" now={10} key={3} />
-              </ProgressBar>
-              <ProgressBar variant="warning" now={60} />
-              <ProgressBar variant="danger" now={50} />
-              <ProgressBar variant="info" now={50} />
-              <ProgressBar>
-                <ProgressBar striped variant="success" now={35} key={1} />
-                <ProgressBar variant="warning" now={28} key={2} />
-                <ProgressBar striped variant="danger" now={20} key={3} />
-              </ProgressBar>
-              <ProgressBar variant="danger" now={80} />
-              <ProgressBar variant="success" now={80} />
-            </div>
-          </div>
         </Col>
+        <div>
+          <img className="image-sizing" src={img1} alt=""/>
+          </div>
       </div>
 
 

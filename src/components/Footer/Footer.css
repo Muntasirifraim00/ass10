@@ -3,15 +3,12 @@
   padding: 0;
 }
 .container {
-  max-width: 1170px;
+  max-width: 100%;
   margin: auto;
 }
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 .footer {
   background-color: #24262b;
   color: rgb(15, 206, 253);
-  padding: 40px 0;
+  padding: 10px 0;
 }
